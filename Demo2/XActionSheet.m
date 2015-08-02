@@ -79,7 +79,7 @@
         _layView = [[UIView alloc]initWithFrame:CGRectMake(width * 0.1,height - ( 40 + 10), width * 0.8,  _btnArray.count * 40 + 40 + 20)];
         _layView.alpha = 0.8;
         [self.view addSubview:_layView];
-    }{
+    }else{
         CGFloat nowHeight = _layView.bounds.size.height;
         nowHeight += 40;
         _layView.frame = CGRectMake(width * 0.1, height - nowHeight, width * 0.8, nowHeight);
