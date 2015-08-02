@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>866E8258-B2D2-4292-9E08-7A6879059963</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Demo2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FCDDB4F675848B2FA8A74043A711B1BA9883CDE2</key>
+		<string>https://github.com/superxlx/Demo2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FCDDB4F675848B2FA8A74043A711B1BA9883CDE2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/superxlx/Demo2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FCDDB4F675848B2FA8A74043A711B1BA9883CDE2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCDDB4F675848B2FA8A74043A711B1BA9883CDE2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XActionSheet</string>
+		</dict>
+	</array>
+</dict>
+</plist>

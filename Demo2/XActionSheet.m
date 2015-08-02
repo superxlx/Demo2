@@ -52,10 +52,10 @@
         _layView.alpha = 0.8;
         _layView.layer.masksToBounds = true;
         [self.view addSubview:_layView];
-    }else if(!_CancelButton){
+    }else{
         CGFloat nowHeight = _layView.bounds.size.height;
         nowHeight += 50;
-        _layView.frame = CGRectMake(width * 0.1, height - nowHeight, width * 0.8, height);
+        _layView.frame = CGRectMake(width * 0.1, height - nowHeight, width * 0.8, nowHeight);
     }
     if (!_CancelButton) {
         _CancelButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 40 * _btnArray.count + 10, width * 0.8, 40)];
@@ -68,8 +68,6 @@
     }else{
         [_CancelButton setTitle:Title forState:normal];
     }
-   
-    
 }
 /**
  *  添加按钮
@@ -77,7 +75,9 @@
 -(void)addButtonwithTitle:(NSString *)Title{
     if (!_layView) {
         _layView = [[UIView alloc]initWithFrame:CGRectMake(width * 0.1,height - ( 40 + 10), width * 0.8,  _btnArray.count * 40 + 40 + 20)];
+        _layView.layer.cornerRadius = 5;
         _layView.alpha = 0.8;
+        _layView.layer.masksToBounds = true;
         [self.view addSubview:_layView];
     }else{
         CGFloat nowHeight = _layView.bounds.size.height;

@@ -142,8 +142,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func PhotoBrowser(){
         var action = XActionSheet()
         action.delegate = self
-        action.addCancelButton("取消")
         action.addButtonwithTitle("拍照")
+        action.addCancelButton("取消")
         action.addButtonwithTitle("相册")
         action.addButtonwithTitle("查看高清大图")
         self.presentViewController(action, animated: true) { () -> Void in
