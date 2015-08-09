@@ -17,6 +17,7 @@
 
 - (void)addCancelButton:(NSString *)Title;
 - (void)addButtonwithTitle:(NSString *)Title;
+- (void)addButtonWithTitleArray:(NSArray *)array;
 
 @property (nonatomic, strong) UIView *layView;
 @property (nonatomic, strong) UIButton *CancelButton;

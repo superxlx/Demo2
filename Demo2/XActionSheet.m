@@ -96,6 +96,11 @@
     CGFloat cancelY = _CancelButton.frame.origin.y;
     _CancelButton.frame = CGRectMake(0, cancelY + 40, width * 0.8, 40);
 }
+- (void)addButtonWithTitleArray:(NSArray *)array{
+    for (NSString *Title in array) {
+        [self addButtonwithTitle:Title];
+    }
+}
 /**
  *  按钮点击动作
  */
